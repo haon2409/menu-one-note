@@ -1,0 +1,4 @@
+launchctl unload ~/Library/LaunchAgents/com.haonguyen.menuonenote.plist
+launchctl load ~/Library/LaunchAgents/com.haonguyen.menuonenote.plist
+
+icon: https://icons8.com/icons/set/note
