@@ -104,9 +104,9 @@ class NoteAppDelegate(NSObject):
         if self:
             self.popover = NSPopover.alloc().init()
             
-            note_view = NoteView.alloc().initWithFrame_(NSMakeRect(0, 0, 450, 200))
+            note_view = NoteView.alloc().initWithFrame_(NSMakeRect(0, 0, 450, 400))
             if note_view:
-                self.popover.setContentSize_(NSSize(450, 200))
+                self.popover.setContentSize_(NSSize(450, 400))
                 self.popover.setContentViewController_(objc.lookUpClass("NSViewController").alloc().initWithNibName_bundle_(None, None))
                 self.popover.contentViewController().setView_(note_view)
             
