@@ -5,7 +5,7 @@ a = Analysis(
     ['menu_one_note.py'],
     pathex=[],
     binaries=[],
-    datas=[('one_note_have_text_icon.png', '.'), ('one_note_no_text_icon.png', '.'), ('note.txt', '.'), ('lined_background.png', '.')],
+    datas=[('one_note_have_text_icon.png', '.'), ('one_note_no_text_icon.png', '.'), ('note.txt', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
