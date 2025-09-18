@@ -12,7 +12,7 @@ Persistent Notes: Notes are saved to note.txt in the app directory.
 
 Requirements
 
-macOS
+macOS 10.15+
 Python 3.x
 PyObjC (pip install pyobjc)
 PyInstaller (pip install pyinstaller)
@@ -26,11 +26,11 @@ cd menu-one-note
 Install dependencies:pip install pyobjc pyinstaller
 
 
-Build the app:chmod +x build_onenote.sh
+Build the standalone app:chmod +x build_onenote.sh
 ./build_onenote.sh
 
 
-Find the built app (OneNote.app) in the dist folder.
+Find the built app (OneNote.app) in the project root.
 
 File Structure
 
@@ -46,7 +46,7 @@ one_note_icon.icns: App icon for the macOS bundle.
 
 Usage
 
-Open dist/OneNote.app or build the app using the script.
+Run OneNote.app from the project root or copy it to /Applications/ and double-click.
 Click the menu bar icon to open the note-taking window.
 Type notes; they auto-save to note.txt after a 0.5-second delay.
 Use Edit menu or shortcuts (e.g., Cmd+C for Copy, Cmd+Z for Undo).
@@ -57,11 +57,12 @@ Notes
 Notes are saved to /Users/haonguyen/Projects/menu/menu_one_note/note.txt. Update the path in menu_one_note.py if needed.
 The LineView class for lined backgrounds is commented out but can be enabled.
 The app runs as a menu bar app and persists after closing the window.
+The standalone app requires no Python or dependencies; simply copy to /Applications/.
 
 Troubleshooting
 
 Icons not showing: Ensure one_note_have_text_icon.png, one_note_no_text_icon.png, and one_note_icon.icns are in the project directory.
-Build failures: Confirm PyObjC and PyInstaller are installed.
+Build failures: Confirm PyObjC and PyInstaller are installed; check terminal output for errors.
 File path issues: Adjust paths in menu_one_note.py to match your system.
 
 License
