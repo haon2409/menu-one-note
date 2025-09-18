@@ -1,3 +1,4 @@
+#!/bin/bash
 pyinstaller --noconfirm --onedir --windowed \
   --icon=one_note_icon.icns \
   --add-data "one_note_have_text_icon.png:." \
@@ -7,3 +8,6 @@ pyinstaller --noconfirm --onedir --windowed \
   --name OneNote \
   --osx-bundle-identifier com.yourcompany.onenote \
   menu_one_note.py
+
+# Sao chép Info.plist tùy chỉnh vào bundle
+cp Info.plist dist/OneNote.app/Contents/Info.plist
