@@ -1,75 +1,68 @@
-# Menu One Note
+OneNote - A Simple Menu Bar Note-Taking App for macOS
+Overview
+OneNote is a lightweight macOS application that resides in the menu bar, allowing users to quickly take and save notes to a note.txt file. The app features a dynamic status bar icon that updates based on whether notes are present and supports basic text editing with undo/redo functionality.
+Features
 
-**Menu One Note** là một tiện ích mở rộng trình duyệt giúp bạn quản lý và truy cập nhanh các ghi chú của mình, tích hợp mượt mà với Microsoft OneNote hoặc hệ thống ghi chú cá nhân. Với giao diện đơn giản và tính năng tiện lợi, bạn có thể ghi lại ý tưởng, lưu trữ thông tin và tổ chức công việc ngay từ trình duyệt.
+Menu Bar Access: Open a note-taking window from the status bar.
+Dynamic Icon: Shows one_note_have_text_icon.png when notes exist, otherwise one_note_no_text_icon.png.
+Plain Text Editing: Simple text input with customizable font size (16) and line spacing (5).
+Auto-Save: Saves notes to note.txt after a 0.5-second delay.
+Edit Menu: Includes Copy, Cut, Paste, Select All, Undo, and Redo with standard macOS shortcuts (e.g., Cmd+Z, Cmd+Shift+Z).
+Persistent Notes: Notes are saved to note.txt in the app directory.
 
-## Tính năng
+Requirements
 
-- **Truy cập nhanh**: Mở ghi chú từ menu tiện ích chỉ với một cú nhấp chuột.
-- **Tạo ghi chú mới**: Thêm ghi chú trực tiếp từ trang web bạn đang xem.
-- **Đồng bộ với OneNote**: Kết nối và lưu trữ ghi chú vào Microsoft OneNote (nếu được hỗ trợ).
-- **Tùy chỉnh menu**: Sắp xếp và cá nhân hóa danh sách ghi chú theo ý muốn.
-- **Tìm kiếm ghi chú**: Tìm kiếm nhanh các ghi chú đã lưu từ giao diện tiện ích.
+macOS
+Python 3.x
+PyObjC (pip install pyobjc)
+PyInstaller (pip install pyinstaller)
 
-## Cài đặt
+Installation
 
-### Từ Chrome Web Store (nếu đã xuất bản)
-1. Truy cập [Chrome Web Store](#) (thay bằng liên kết thực tế khi có).
-2. Nhấn **"Thêm vào Chrome"** và xác nhận cài đặt.
-3. Sau khi cài đặt, nhấp vào biểu tượng tiện ích trên thanh công cụ để bắt đầu.
+Clone the repository:git clone https://github.com/haon2409/menu-one-note.git
+cd menu-one-note
 
-### Cài đặt thủ công (cho nhà phát triển)
-1. Tải mã nguồn từ kho lưu trữ này:
-   ```bash
-   git clone https://github.com/haon2409/menu-one-note.git
-   ```
-2. Mở trình duyệt (Chrome/Edge) và truy cập `chrome://extensions/`.
-3. Bật **Chế độ nhà phát triển** (Developer Mode) ở góc trên bên phải.
-4. Nhấn **Tải tiện ích chưa đóng gói** (Load unpacked) và chọn thư mục chứa mã nguồn vừa tải.
-5. Tiện ích sẽ xuất hiện trong danh sách và sẵn sàng sử dụng.
 
-## Cách sử dụng
+Install dependencies:pip install pyobjc pyinstaller
 
-1. Nhấp vào biểu tượng tiện ích trên thanh công cụ trình duyệt.
-2. Chọn **Tạo ghi chú mới** để thêm nội dung từ trang web hiện tại.
-3. Xem và chỉnh sửa ghi chú từ menu thả xuống.
-4. Đồng bộ với OneNote (nếu bật) trong phần **Cài đặt > Đồng bộ hóa**.
-5. Sử dụng thanh tìm kiếm để nhanh chóng tìm ghi chú cũ.
 
-Ví dụ: Để lưu một đoạn văn, chọn văn bản trên trang web, nhấp vào tiện ích và chọn **Thêm vào ghi chú**.
+Build the app:chmod +x build_onenote.sh
+./build_onenote.sh
 
-## Yêu cầu hệ thống
 
-- Trình duyệt: Google Chrome, Microsoft Edge hoặc bất kỳ trình duyệt nào dựa trên Chromium.
-- Phiên bản: Chromium 90 trở lên.
-- Tài khoản Microsoft (nếu sử dụng đồng bộ với OneNote).
+Find the built app (OneNote.app) in the dist folder.
 
-## Đóng góp
+File Structure
 
-Chúng tôi hoan nghênh mọi đóng góp từ cộng đồng! Để tham gia:
+menu_one_note.py: Core application logic.
+OneNote.spec: PyInstaller configuration for building the app.
+build_onenote.sh: Script to automate the build process.
+Info.plist: macOS app bundle configuration.
+note.txt: Stores user notes.
+one_note_have_text_icon.png: Icon for non-empty notes.
+one_note_no_text_icon.png: Icon for empty notes.
+lined_background.png: Unused background image (optional).
+one_note_icon.icns: App icon for the macOS bundle.
 
-1. Fork kho lưu trữ này.
-2. Tạo một nhánh mới:
-   ```bash
-   git checkout -b ten-nhanh-cua-ban
-   ```
-3. Thực hiện thay đổi và commit:
-   ```bash
-   git commit -m "Mô tả thay đổi của bạn"
-   ```
-4. Đẩy lên nhánh của bạn:
-   ```bash
-   git push origin ten-nhanh-cua-ban
-   ```
-5. Tạo một Pull Request trên GitHub.
+Usage
 
-## Giấy phép
+Open dist/OneNote.app or build the app using the script.
+Click the menu bar icon to open the note-taking window.
+Type notes; they auto-save to note.txt after a 0.5-second delay.
+Use Edit menu or shortcuts (e.g., Cmd+C for Copy, Cmd+Z for Undo).
+Click the menu bar icon again to close the popover.
 
-Dự án này được cấp phép theo [MIT License](LICENSE). Bạn có thể tự do sử dụng, chỉnh sửa và phân phối theo các điều khoản của giấy phép.
+Notes
 
-## Liên hệ
+Notes are saved to /Users/haonguyen/Projects/menu/menu_one_note/note.txt. Update the path in menu_one_note.py if needed.
+The LineView class for lined backgrounds is commented out but can be enabled.
+The app runs as a menu bar app and persists after closing the window.
 
-Nếu bạn có câu hỏi hoặc cần hỗ trợ, hãy liên hệ qua:
-- Email: [your-email@example.com](#) (thay bằng email thực tế của bạn)
-- GitHub Issues: [Mở issue tại đây](https://github.com/haon2409/menu-one-note/issues)
+Troubleshooting
 
-Cảm ơn bạn đã sử dụng **Menu One Note**! Hãy tổ chức và quản lý ghi chú của bạn một cách hiệu quả hơn.
+Icons not showing: Ensure one_note_have_text_icon.png, one_note_no_text_icon.png, and one_note_icon.icns are in the project directory.
+Build failures: Confirm PyObjC and PyInstaller are installed.
+File path issues: Adjust paths in menu_one_note.py to match your system.
+
+License
+MIT License. See LICENSE for details.
