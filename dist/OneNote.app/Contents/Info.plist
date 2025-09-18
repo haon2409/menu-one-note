@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>OneNote</string>
 	<key>CFBundleIconFile</key>
-	<string>generated-a9d5f6f9caf49b65a40a85f9c5304584b73ed114d2c7764b8104732ff260ece0.icns</string>
+	<string>one_note_icon.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.yourcompany.onenote</string>
 	<key>CFBundleInfoDictionaryVersion</key>

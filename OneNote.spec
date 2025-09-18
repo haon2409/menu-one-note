@@ -32,7 +32,7 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['one_note_have_text_icon.png'],
+    icon=['one_note_icon.icns'],
 )
 coll = COLLECT(
     exe,
@@ -46,6 +46,6 @@ coll = COLLECT(
 app = BUNDLE(
     coll,
     name='OneNote.app',
-    icon='one_note_have_text_icon.png',
+    icon='one_note_icon.icns',
     bundle_identifier='com.yourcompany.onenote',
 )
