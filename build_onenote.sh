@@ -71,19 +71,13 @@ $PYINSTALLER_PATH --noconfirm --onedir --windowed \
   --add-data "note.txt:." \
   --name OneNote \
   --osx-bundle-identifier com.yourcompany.onenote \
+  --target-arch universal2 \
   menu_one_note.py
 
 # Copy Info.plist to bundle
 print_status "Copying Info.plist to bundle..."
 cp Info.plist dist/OneNote.app/Contents/Info.plist
 print_success "Info.plist copied"
-
-if [ $? -eq 0 ]; then
-    print_success "Build successful!"
-else
-    print_error "Build failed"
-    exit 1
-fi
 
 # Check if app was created
 if [ -d "dist/OneNote.app" ]; then
@@ -108,14 +102,19 @@ if [ -d "dist/OneNote.app" ]; then
     echo ""
     echo "🚀 Usage:"
     echo "   • Copy OneNote.app to /Applications/"
-    echo "   • Double-click to run"
-    echo "   • Or: open OneNote.app"
+    echo "   • Right-click > Open to bypass Gatekeeper"
+    echo "   • Or: open OneNote.app from Terminal"
+    echo ""
+    echo "⚠ Warning:"
+    echo "   • App not codesigned/notarized, may be blocked by Gatekeeper"
+    echo "   • On other Macs, use: open /Applications/OneNote.app"
+    echo "   • Or allow app in System Settings > Privacy & Security"
     echo ""
     echo "✨ Standalone features:"
     echo "   • No Python installation needed"
     echo "   • No dependencies required"
     echo "   • Runs on macOS 10.15+"
-    echo "   • Just copy to Applications"
+    echo "   • Universal binary (Intel & Apple Silicon)"
 else
     print_error "Standalone app not created"
     exit 1

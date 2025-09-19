@@ -1,9 +1,17 @@
+import sys
+import os
 import objc
 from AppKit import (NSApplication, NSStatusBar, NSPopover, NSView, NSMakeRect,
                    NSSize, NSColor, NSTextView, NSScrollView, NSFont, NSMenu,
                    NSMenuItem, NSImage, NSMutableParagraphStyle, NSParagraphStyleAttributeName,
                    NSBezierPath)
 from Foundation import NSObject, NSString, NSTimer
+
+def resource_path(relative_path):
+    """Get absolute path to resource, works for dev and for PyInstaller"""
+    if hasattr(sys, '_MEIPASS'):
+        return os.path.join(sys._MEIPASS, relative_path)
+    return os.path.join(os.path.abspath("."), relative_path)
 
 class LineView(NSView):
     def initWithFrame_(self, frame):
@@ -62,14 +70,10 @@ class NoteView(NSView):
         self.text_view.setDefaultParagraphStyle_(self.paragraph_style)
 
         try:
-            with open('/Users/haonguyen/Projects/menu/menu_one_note/note.txt', 'r') as f:
+            with open(resource_path('note.txt'), 'r') as f:
                 self.text_view.setString_(f.read())
         except FileNotFoundError:
             pass
-
-        # self.line_view = LineView.alloc().initWithFrame_(self.text_view.bounds())
-        # self.line_view.setAutoresizingMask_(0x12)
-        # self.text_view.addSubview_positioned_relativeTo_(self.line_view, 1, None)
 
         scroll_view.setDocumentView_(self.text_view)
         self.addSubview_(scroll_view)
@@ -94,7 +98,10 @@ class NoteView(NSView):
 
     def saveContent_(self, timer):
         content = timer.userInfo()
-        with open('/Users/haonguyen/Projects/menu/menu_one_note/note.txt', 'w') as f:
+        # Save to user directory instead of bundle to avoid write issues
+        user_data_dir = os.path.expanduser("~/Library/Application Support/OneNote")
+        os.makedirs(user_data_dir, exist_ok=True)
+        with open(os.path.join(user_data_dir, 'note.txt'), 'w') as f:
             f.write(content)
         self.save_timer = None
 
@@ -111,8 +118,8 @@ class NoteAppDelegate(NSObject):
                 self.popover.contentViewController().setView_(note_view)
             
             self.status_item = NSStatusBar.systemStatusBar().statusItemWithLength_(-1)
-            self.icon_with_text = NSImage.alloc().initWithContentsOfFile_('/Users/haonguyen/Projects/menu/menu_one_note/one_note_have_text_icon.png')
-            self.icon_empty = NSImage.alloc().initWithContentsOfFile_('/Users/haonguyen/Projects/menu/menu_one_note/one_note_no_text_icon.png')
+            self.icon_with_text = NSImage.alloc().initWithContentsOfFile_(resource_path('one_note_have_text_icon.png'))
+            self.icon_empty = NSImage.alloc().initWithContentsOfFile_(resource_path('one_note_no_text_icon.png'))
             
             if self.icon_with_text:
                 self.icon_with_text.setSize_((22, 22))

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/base_library.zip</key>
 		<data>
-		7kvb7ADXSU4QtFZN5N1c7OJvxQ8=
+		VYoCLVUEmEwu2BXGo0w3363MyM8=
 		</data>
 		<key>Resources/note.txt</key>
 		<data>
@@ -31,55 +31,55 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			GaFHxV14CLgdnh1t+28uarxecKM=
+			hFCLgUkjUcHb9Lq+Qjb1jRCref8=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"19a147c55d7808b81d9e1d6dfb6f2e6abc5e70a3"</string>
+			<string>cdhash H"1910c8e9df10f7aa2d78adc0ea60698467a7d188" or cdhash H"84508b81492351c1dbf4babe4236f58d10ab79ff" or cdhash H"2a729d04f33be2a149401b416e16c00f49f652f6" or cdhash H"284a1a8da09a8050f25b9c99939c22409fcd0857"</string>
 		</dict>
 		<key>Frameworks/AppKit/_inlines.cpython-39-darwin.so</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			TxsHrtRNx3rP3quNMYRd7lFw6L8=
+			RYH5FUPDnB1UeN9OLxCmFH7O39o=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"4f1b07aed44dc77acfdeab8d31845dee5170e8bf"</string>
+			<string>cdhash H"3f05c7db04c2ad1ee6d36e8e3351d37c2d10f9bd" or cdhash H"4581f91543c39c1d5478df4e2f10a6147ecedfda" or cdhash H"252e34f7704b4e6d0e74bee87064ece6394a71b4" or cdhash H"183e56e9f27091c8f7837383e4f7fc1f78ec1498"</string>
 		</dict>
 		<key>Frameworks/CoreFoundation/_CoreFoundation.cpython-39-darwin.so</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			XdtbJ7q4AHFDI+0pC58mdq7L4DQ=
+			LllF3AcOc0Ch/NTYAXpghAcl660=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"5ddb5b27bab800714323ed290b9f2676aecbe034"</string>
+			<string>cdhash H"76d602cf63a47701d957f2361e6a9bf39972153a" or cdhash H"2e5945dc070e7340a1fcd4d8017a60840725ebad" or cdhash H"9e0ba371e4011b7db5dd0822dfcdfa4923657307" or cdhash H"d1a1176440edf950d671e72097f7475d47e16e5c"</string>
 		</dict>
 		<key>Frameworks/CoreFoundation/_inlines.cpython-39-darwin.so</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			lde/pCO7FLVa1Gve0+885uR023M=
+			eZq9y9LyzlY0vIKYpKiyVNRfumY=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"95d7bfa423bb14b55ad46bded3ef3ce6e474db73"</string>
+			<string>cdhash H"5fb375df8b17cf45461f90850d7cbb3a8e5c5e3f" or cdhash H"799abdcbd2f2ce5634bc8298a4a8b254d45fba66" or cdhash H"60e6bc4a7620d0853ac8327e75affd087a3053cc" or cdhash H"33ac94c426bca7240ad1302a3591485df76275b5"</string>
 		</dict>
 		<key>Frameworks/Foundation/_Foundation.cpython-39-darwin.so</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			gTr9XrElbhAjrCyIwfI/2TgmADQ=
+			5heE9jMl2K6yzOw/crswUj3yNJw=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"813afd5eb1256e1023ac2c88c1f23fd938260034"</string>
+			<string>cdhash H"717007ea3f2bcbba0c568baf3c1c6ee58da30161" or cdhash H"e61784f63325d8aeb2ccec3f72bb30523df2349c" or cdhash H"f64ceb2a0196983c96ce79607cafd2746261eb51" or cdhash H"d9248db77545e911686d66dceaec16dcee6afead"</string>
 		</dict>
 		<key>Frameworks/Foundation/_inlines.cpython-39-darwin.so</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			zG5naZwhh4WEucFrGi7WQ6gPJ/Y=
+			WldmR6drA0JtC9ykTd18M3dMtKM=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"cc6e67699c21878584b9c16b1a2ed643a80f27f6"</string>
+			<string>cdhash H"cbe8e5d7d6e1d6f7bba5eef5653323ff21416491" or cdhash H"5a576647a76b03426d0bdca44ddd7c33774cb4a3" or cdhash H"4d52eab096c68859d8415b0c40650e12c4367690" or cdhash H"ac32de2c6ef142826fdfd63883cb2a8db5bc1ba9"</string>
 		</dict>
 		<key>Frameworks/Python3</key>
 		<dict>
@@ -93,7 +93,7 @@
 			a80mVwmeWb735WxSeBUegc/HD0Y=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"6bcd2657099e59bef7e56c5278151e81cfc70f46"</string>
+			<string>cdhash H"6bcd2657099e59bef7e56c5278151e81cfc70f46" or cdhash H"643de3f8308b4adbe76ec79046d8bd1b44515662"</string>
 		</dict>
 		<key>Frameworks/base_library.zip</key>
 		<dict>
@@ -107,7 +107,7 @@
 			osCJz1VWt6qeEAfiyWrm5rhmR+k=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"a2c089cf5556b7aa9e1007e2c96ae6e6b86647e9"</string>
+			<string>cdhash H"a2c089cf5556b7aa9e1007e2c96ae6e6b86647e9" or cdhash H"fc0d202a5ba663675ff7b7a053e45deaae0a95ce"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_blake2.cpython-39-darwin.so</key>
 		<dict>
@@ -116,7 +116,7 @@
 			pqma3x1dJK49w+yMTTo1EYXt95w=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"a6a99adf1d5d24ae3dc3ec8c4d3a351185edf79c"</string>
+			<string>cdhash H"a6a99adf1d5d24ae3dc3ec8c4d3a351185edf79c" or cdhash H"5a4766bfe57dcc93f12e59f0962e5cfa90fb13f8"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_bz2.cpython-39-darwin.so</key>
 		<dict>
@@ -125,7 +125,7 @@
 			5egepdhmbUsFief7XOPzYmRRqS4=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"e5e81ea5d8666d4b0589e7fb5ce3f3626451a92e"</string>
+			<string>cdhash H"e5e81ea5d8666d4b0589e7fb5ce3f3626451a92e" or cdhash H"be6864888e8b35647367917cfd73c7af2a6e2bc6"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_codecs_cn.cpython-39-darwin.so</key>
 		<dict>
@@ -134,7 +134,7 @@
 			7JeRvzlxNjjedTUNRNC2QnGpglI=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"ec9791bf39713638de75350d44d0b64271a98252"</string>
+			<string>cdhash H"ec9791bf39713638de75350d44d0b64271a98252" or cdhash H"2644e44e8176e1bcb1ea87a1e3b800d6ee40208b"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_codecs_hk.cpython-39-darwin.so</key>
 		<dict>
@@ -143,7 +143,7 @@
 			G27J7IGs0WvunjZVujb9fImF+pA=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"1b6ec9ec81acd16bee9e3655ba36fd7c8985fa90"</string>
+			<string>cdhash H"1b6ec9ec81acd16bee9e3655ba36fd7c8985fa90" or cdhash H"6d03d67eb341713f7c5dfabb54dcc0e3d6801bd1"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_codecs_iso2022.cpython-39-darwin.so</key>
 		<dict>
@@ -152,7 +152,7 @@
 			g8KX80Dk3VuN36GCSggDOchDYpQ=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"83c297f340e4dd5b8ddfa1824a080339c8436294"</string>
+			<string>cdhash H"83c297f340e4dd5b8ddfa1824a080339c8436294" or cdhash H"19919af10359de8cc8171ad296d7daf51531797c"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_codecs_jp.cpython-39-darwin.so</key>
 		<dict>
@@ -161,7 +161,7 @@
 			dTpwrTiz1PUq/o+Wcz5u7OGZ7U0=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"753a70ad38b3d4f52afe8f96733e6eece199ed4d"</string>
+			<string>cdhash H"753a70ad38b3d4f52afe8f96733e6eece199ed4d" or cdhash H"cfe5cd0a2e8d536b7c13147569c02c75d3385c87"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_codecs_kr.cpython-39-darwin.so</key>
 		<dict>
@@ -170,7 +170,7 @@
 			VxMqBFpyL9NgsTo6WoJu+zf6JT8=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"57132a045a722fd360b13a3a5a826efb37fa253f"</string>
+			<string>cdhash H"57132a045a722fd360b13a3a5a826efb37fa253f" or cdhash H"fde6fe390c0d9b6056af26012bdffafee6784d57"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_codecs_tw.cpython-39-darwin.so</key>
 		<dict>
@@ -179,7 +179,7 @@
 			78Z8kqXxYvoxhNRApWsd8A/u6Qo=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"efc67c92a5f162fa3184d440a56b1df00feee90a"</string>
+			<string>cdhash H"efc67c92a5f162fa3184d440a56b1df00feee90a" or cdhash H"62eb9336f47a3ac1af0b7fb5f8125113ef220aab"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_contextvars.cpython-39-darwin.so</key>
 		<dict>
@@ -188,7 +188,7 @@
 			vEIxlU/4yWT2kQc3gHhwuYwshuU=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"bc4231954ff8c964f6910737807870b98c2c86e5"</string>
+			<string>cdhash H"bc4231954ff8c964f6910737807870b98c2c86e5" or cdhash H"0598ba3b51f1d76048db1bbccf4ffe58901d1f4f"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_csv.cpython-39-darwin.so</key>
 		<dict>
@@ -197,7 +197,7 @@
 			WMeq/V3EXeyKTTBTtfbewW7I1AQ=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"58c7aafd5dc45dec8a4d3053b5f6dec16ec8d404"</string>
+			<string>cdhash H"58c7aafd5dc45dec8a4d3053b5f6dec16ec8d404" or cdhash H"739a99a7fe3b91b089c3196a0170f9d32f097510"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_ctypes.cpython-39-darwin.so</key>
 		<dict>
@@ -206,7 +206,7 @@
 			ptYg4ebLacK4N1AXWJR/USPlt64=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"a6d620e1e6cb69c2b837501758947f5123e5b7ae"</string>
+			<string>cdhash H"a6d620e1e6cb69c2b837501758947f5123e5b7ae" or cdhash H"d8a2f3718f18a9e5c0f5ef3dac85a111987f122e"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_datetime.cpython-39-darwin.so</key>
 		<dict>
@@ -215,7 +215,7 @@
 			04qGOU+0QcQ5HcqsKoNkryGJpsU=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"d38a86394fb441c4391dcaac2a8364af2189a6c5"</string>
+			<string>cdhash H"d38a86394fb441c4391dcaac2a8364af2189a6c5" or cdhash H"54eb60e4d75ac3337c28d4e0ea48cf1eafe3f5c4"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_decimal.cpython-39-darwin.so</key>
 		<dict>
@@ -224,7 +224,7 @@
 			vBl0ya9BghJGObzhu60OW2KRVr0=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"bc1974c9af4182124639bce1bbad0e5b629156bd"</string>
+			<string>cdhash H"bc1974c9af4182124639bce1bbad0e5b629156bd" or cdhash H"bec9fd53e43ea68ac5f879b1d5283e892a6dbf7c"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_elementtree.cpython-39-darwin.so</key>
 		<dict>
@@ -233,7 +233,7 @@
 			SbHzwYzl51QubWqoihbUT6bYtDk=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"49b1f3c18ce5e7542e6d6aa88a16d44fa6d8b439"</string>
+			<string>cdhash H"49b1f3c18ce5e7542e6d6aa88a16d44fa6d8b439" or cdhash H"ca172a92bcbf994cbb07aa4bb665441d3bc2e756"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_hashlib.cpython-39-darwin.so</key>
 		<dict>
@@ -242,7 +242,7 @@
 			ZAhb7lnhGUN9L1R1IXfSOGP9tKQ=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"64085bee59e119437d2f54752177d23863fdb4a4"</string>
+			<string>cdhash H"64085bee59e119437d2f54752177d23863fdb4a4" or cdhash H"7d98cc895cadb3dc86b2c8d7ec2c29253952ddca"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_heapq.cpython-39-darwin.so</key>
 		<dict>
@@ -251,7 +251,7 @@
 			VOnZQ75OJ8zarudvhZrEzi3GPl4=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"54e9d943be4e27ccdaaee76f859ac4ce2dc63e5e"</string>
+			<string>cdhash H"54e9d943be4e27ccdaaee76f859ac4ce2dc63e5e" or cdhash H"ef7d7c5e846b974b7ea3217775eed7df1d5a8c6e"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_lzma.cpython-39-darwin.so</key>
 		<dict>
@@ -260,7 +260,7 @@
 			cbidZ4ZJmMmlhJBr4+yvTR/dNb0=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"71b89d67864998c9a584906be3ecaf4d1fdd35bd"</string>
+			<string>cdhash H"71b89d67864998c9a584906be3ecaf4d1fdd35bd" or cdhash H"c2bf16bf6e10f6c3a25f510cfef4d74052c528be"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_md5.cpython-39-darwin.so</key>
 		<dict>
@@ -269,7 +269,7 @@
 			eyMo5KGWwXQFRHnyJGwwQN/pKsE=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"7b2328e4a196c174054479f2246c3040dfe92ac1"</string>
+			<string>cdhash H"7b2328e4a196c174054479f2246c3040dfe92ac1" or cdhash H"5968374afb2ab4c5fd1c833dc39b67afe2c9cbb3"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_multibytecodec.cpython-39-darwin.so</key>
 		<dict>
@@ -278,7 +278,7 @@
 			97WMGfTf4f3Wxn/IXK6kYSmFgHE=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"f7b58c19f4dfe1fdd6c67fc85caea46129858071"</string>
+			<string>cdhash H"f7b58c19f4dfe1fdd6c67fc85caea46129858071" or cdhash H"6cdc501183caf1bd06a007ace13b5131f3ebed14"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_opcode.cpython-39-darwin.so</key>
 		<dict>
@@ -287,7 +287,7 @@
 			q6FvZ9COvS3hPPqS8vZbULVk5rk=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"aba16f67d08ebd2de13cfa92f2f65b50b564e6b9"</string>
+			<string>cdhash H"aba16f67d08ebd2de13cfa92f2f65b50b564e6b9" or cdhash H"dc0864e3413fa12a799d94adde01b2a987a2f159"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_pickle.cpython-39-darwin.so</key>
 		<dict>
@@ -296,7 +296,7 @@
 			iAJySS8QdwGXevCOJ7MFUeTTmIw=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"880272492f107701977af08e27b30551e4d3988c"</string>
+			<string>cdhash H"880272492f107701977af08e27b30551e4d3988c" or cdhash H"4aa6fe53876da4183b5c221c5e6ea909a34e2644"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_posixsubprocess.cpython-39-darwin.so</key>
 		<dict>
@@ -305,7 +305,7 @@
 			J6miU7U37qDJCBFzTDprsqxhr04=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"27a9a253b537eea0c90811734c3a6bb2ac61af4e"</string>
+			<string>cdhash H"27a9a253b537eea0c90811734c3a6bb2ac61af4e" or cdhash H"cb263128990047757ab8989df1d13e3f848a614d"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_random.cpython-39-darwin.so</key>
 		<dict>
@@ -314,7 +314,7 @@
 			0p0t3mt9M0/tIGoQRRRsreJfpxo=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"d29d2dde6b7d334fed206a1045146cade25fa71a"</string>
+			<string>cdhash H"d29d2dde6b7d334fed206a1045146cade25fa71a" or cdhash H"e8feda4b9310e6d550f3d1d38b8d24f1f5a7e97e"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_scproxy.cpython-39-darwin.so</key>
 		<dict>
@@ -323,7 +323,7 @@
 			7kayeoTUq5O/n+DaWuhqsxuhEfw=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"ee46b27a84d4ab93bf9fe0da5ae86ab31ba111fc"</string>
+			<string>cdhash H"ee46b27a84d4ab93bf9fe0da5ae86ab31ba111fc" or cdhash H"b962b008392c4a16042ea9de67134ff4af7c8a63"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_sha1.cpython-39-darwin.so</key>
 		<dict>
@@ -332,7 +332,7 @@
 			v42sgs4VjhT6S/26WIWCe+F8Lg0=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"bf8dac82ce158e14fa4bfdba5885827be17c2e0d"</string>
+			<string>cdhash H"bf8dac82ce158e14fa4bfdba5885827be17c2e0d" or cdhash H"f01cf65105407ab1b0a878ac8c12c4998384a41a"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_sha256.cpython-39-darwin.so</key>
 		<dict>
@@ -341,7 +341,7 @@
 			B457xxmqt5OgqjXD64qNdkS6MRk=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"078e7bc719aab793a0aa35c3eb8a8d7644ba3119"</string>
+			<string>cdhash H"078e7bc719aab793a0aa35c3eb8a8d7644ba3119" or cdhash H"6293dd59755d5e16d416e4d79cd01cabe5430b36"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_sha3.cpython-39-darwin.so</key>
 		<dict>
@@ -350,7 +350,7 @@
 			0MkjJpFE75C9Yr98YjGDRxaEBJo=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"d0c923269144ef90bd62bf7c623183471684049a"</string>
+			<string>cdhash H"d0c923269144ef90bd62bf7c623183471684049a" or cdhash H"4446fcb5f4b0a6597ba4cf1fd944c15e658ee749"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_sha512.cpython-39-darwin.so</key>
 		<dict>
@@ -359,7 +359,7 @@
 			Unsf7tL4L2BeSeHD+ko+Z9IYLt4=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"527b1feed2f82f605e49e1c3fa4a3e67d2182ede"</string>
+			<string>cdhash H"527b1feed2f82f605e49e1c3fa4a3e67d2182ede" or cdhash H"5ec13b870a6a0f908939ef656f0b2dedb458f4ba"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_socket.cpython-39-darwin.so</key>
 		<dict>
@@ -368,7 +368,7 @@
 			xN96RGDhK8Fr7gHbrQhRfcyy/tQ=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"c4df7a4460e12bc16bee01dbad08517dccb2fed4"</string>
+			<string>cdhash H"c4df7a4460e12bc16bee01dbad08517dccb2fed4" or cdhash H"64697004f64583645fa86292791073e4e235e31c"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_ssl.cpython-39-darwin.so</key>
 		<dict>
@@ -377,7 +377,7 @@
 			+vsnuvY6zGfxOvrokIu5Io9rSr8=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"fafb27baf63acc67f13afae8908bb9228f6b4abf"</string>
+			<string>cdhash H"fafb27baf63acc67f13afae8908bb9228f6b4abf" or cdhash H"fed745488b0865b73b3fea0d85009b744987c5c1"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_statistics.cpython-39-darwin.so</key>
 		<dict>
@@ -386,7 +386,7 @@
 			XTTJsqJqR+fDEpAZxjQsRXi6EkM=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"5d34c9b2a26a47e7c3129019c6342c4578ba1243"</string>
+			<string>cdhash H"5d34c9b2a26a47e7c3129019c6342c4578ba1243" or cdhash H"fb59273ab4a0cf08a57b8941b97517a545f8038c"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/_struct.cpython-39-darwin.so</key>
 		<dict>
@@ -395,7 +395,7 @@
 			SilCoENslZ/IJPqasULh3hwdmC4=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"4a2942a0436c959fc824fa9ab142e1de1c1d982e"</string>
+			<string>cdhash H"4a2942a0436c959fc824fa9ab142e1de1c1d982e" or cdhash H"a27fefb83607c216443b79f6dc90e546609ae7db"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/array.cpython-39-darwin.so</key>
 		<dict>
@@ -404,7 +404,7 @@
 			6MlTwxv9WrFGsZZvlBy5AMc9DMs=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"e8c953c31bfd5ab146b1966f941cb900c73d0ccb"</string>
+			<string>cdhash H"e8c953c31bfd5ab146b1966f941cb900c73d0ccb" or cdhash H"8ee19185c37d37d2dd90bf771e4427174caeb3c0"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/binascii.cpython-39-darwin.so</key>
 		<dict>
@@ -413,7 +413,7 @@
 			W87n/61dinJNkpMBVp+hxc1a+wI=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"5bcee7ffad5d8a724d929301569fa1c5cd5afb02"</string>
+			<string>cdhash H"5bcee7ffad5d8a724d929301569fa1c5cd5afb02" or cdhash H"7009cd3029a0b460d8c7ad1dc5bdb5b502000f1c"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/grp.cpython-39-darwin.so</key>
 		<dict>
@@ -422,7 +422,7 @@
 			cx5z65C3wDI62xDav6W6LlOA6aU=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"731e73eb90b7c0323adb10dabfa5ba2e5380e9a5"</string>
+			<string>cdhash H"731e73eb90b7c0323adb10dabfa5ba2e5380e9a5" or cdhash H"3eef042b408a674a40fb5cf727dc17e0df42a6bb"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/math.cpython-39-darwin.so</key>
 		<dict>
@@ -431,7 +431,7 @@
 			wPFPk3pN0xjfFbIzM/T2GrHyMEI=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"c0f14f937a4dd318df15b23333f4f61ab1f23042"</string>
+			<string>cdhash H"c0f14f937a4dd318df15b23333f4f61ab1f23042" or cdhash H"10e3fb31c760eaab3a5820264afaf443ee2a8a15"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/pyexpat.cpython-39-darwin.so</key>
 		<dict>
@@ -440,7 +440,7 @@
 			rl2DKhaHleetLqmgPXKU1ismAo8=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"ae5d832a168795e7ad2ea9a03d7294d62b26028f"</string>
+			<string>cdhash H"ae5d832a168795e7ad2ea9a03d7294d62b26028f" or cdhash H"1f659026aad6f93b190590bb060127977b50abe8"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/resource.cpython-39-darwin.so</key>
 		<dict>
@@ -449,7 +449,7 @@
 			xtNYlY3JXLagdWqWbI3a+fvfYxk=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"c6d358958dc95cb6a0756a966c8ddaf9fbdf6319"</string>
+			<string>cdhash H"c6d358958dc95cb6a0756a966c8ddaf9fbdf6319" or cdhash H"1c41d98c54db776dbe1b13b36609985da2a7bb2a"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/select.cpython-39-darwin.so</key>
 		<dict>
@@ -458,7 +458,7 @@
 			a1+rgwVMyll26cW6sHXaQv5/OSs=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"6b5fab83054cca5976e9c5bab075da42fe7f392b"</string>
+			<string>cdhash H"6b5fab83054cca5976e9c5bab075da42fe7f392b" or cdhash H"ac233dab8cefd65d6eb3be10adc2af5c886bad2c"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/termios.cpython-39-darwin.so</key>
 		<dict>
@@ -467,7 +467,7 @@
 			6E4yK9wd7H7aP0cB56DbEqV5reA=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"e84e322bdc1dec7eda3f4701e7a0db12a579ade0"</string>
+			<string>cdhash H"e84e322bdc1dec7eda3f4701e7a0db12a579ade0" or cdhash H"65bb4fef00f6709cc1c6b3406746a09238d836e1"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/unicodedata.cpython-39-darwin.so</key>
 		<dict>
@@ -476,7 +476,7 @@
 			lJIQDLB7eoDmvj1Ag23dxIwwZbs=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"9492100cb07b7a80e6be3d40836dddc48c3065bb"</string>
+			<string>cdhash H"9492100cb07b7a80e6be3d40836dddc48c3065bb" or cdhash H"d692867b1e21e992d504ab53cc65941c423043c6"</string>
 		</dict>
 		<key>Frameworks/lib-dynload/zlib.cpython-39-darwin.so</key>
 		<dict>
@@ -485,7 +485,7 @@
 			o/aZAe3BTC+8JK2bTYSYLuMd7bQ=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"a3f69901edc14c2fbc24ad9b4d84982ee31dedb4"</string>
+			<string>cdhash H"a3f69901edc14c2fbc24ad9b4d84982ee31dedb4" or cdhash H"aec89ddff484182acb7229cad8fa6ee1b6b438e4"</string>
 		</dict>
 		<key>Frameworks/note.txt</key>
 		<dict>
@@ -496,10 +496,10 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			mYJS8tzoAyqGMt7/tmzTq4Wswag=
+			mmt6hVJHKm8gJQAT3QcylNl6raE=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"998252f2dce8032a8632deffb66cd3ab85acc1a8"</string>
+			<string>cdhash H"a518d525ad973fad6ea3ec0e2e5b3e0b06813b14" or cdhash H"9a6b7a8552472a6f20250013dd073294d97aada1" or cdhash H"48a1172ec3dd1e3e6915ff8e5c6c828e8481ec3a" or cdhash H"fe7bab44ba41acd6e400ab47a6aa93e011861f94"</string>
 		</dict>
 		<key>Frameworks/one_note_have_text_icon.png</key>
 		<dict>
@@ -540,7 +540,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bGd46U6nfYLyUdsVCf2NSZ3y7MZlgsGRW84ExEmQYAs=
+			/k2opsWztSs9Yx8pxwzgFsCUW+4p6AZyh1AIi88ZQdQ=
 			</data>
 		</dict>
 		<key>Resources/lib-dynload</key>
